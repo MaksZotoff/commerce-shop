@@ -1,0 +1,132 @@
+.navbar{
+  font-size: 22px;
+}
+
+.login, .signup, .productadd{
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+
+.signupform, .loginform, .productform {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: nowrap;
+  width: 30rem;
+  padding: 2rem;
+  background-color: #87b3ff;
+  border-radius: 20px;
+}
+
+.carousel, .cataloglist, .categorylist, .where{
+  margin-top: 4rem;
+}
+
+#categoryid>img{
+  width:10rem!important;
+
+}
+.card{
+  max-width: 20rem;
+  margin: 1rem; 
+  align-items: center;
+
+  background: #87b3ff!important;
+  box-shadow: -6px 6px 18px rgba(0, 0, 0, 0.21);
+  border-radius: 20px!important;  
+
+}
+
+.card-img {
+  border-radius: 20px!important;
+  -webkit-border-radius: 20px!important;
+  -moz-border-radius: 20px!important;
+  -ms-border-radius: 20px!important;
+  -o-border-radius: 20px!important;
+}
+
+.button{
+  padding-bottom: 10px;
+}
+
+.item{
+  margin: 0.5rem auto;
+}
+.item-img{
+  max-width: 70%;
+  box-shadow: -3px 3px 14px 3px rgba(0, 0, 0, 0.21);
+  border-radius: 20px;
+}
+
+.catalog{
+  padding: 3rem 2rem;
+}
+
+
+.where {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  font-size: 25px;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.social>.social-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.columncat {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  align-content: center;
+}
+
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+}
+
+.navigation{
+  background-color: #0a4fc6!important;
+  font-size: 25px;
+}
+.nav-link{
+  color: white!important;
+}
+
+#aboutcol{
+  margin-top: 5rem;
+}
+
+.adminboard{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
